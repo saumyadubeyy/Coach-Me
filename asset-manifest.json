@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Coach-Me/static/css/main.c7f2379b.chunk.css",
+    "main.js": "/Coach-Me/static/js/main.75b65a74.chunk.js",
+    "main.js.map": "/Coach-Me/static/js/main.75b65a74.chunk.js.map",
+    "runtime-main.js": "/Coach-Me/static/js/runtime-main.01773800.js",
+    "runtime-main.js.map": "/Coach-Me/static/js/runtime-main.01773800.js.map",
+    "static/js/2.e5b7d6bf.chunk.js": "/Coach-Me/static/js/2.e5b7d6bf.chunk.js",
+    "static/js/2.e5b7d6bf.chunk.js.map": "/Coach-Me/static/js/2.e5b7d6bf.chunk.js.map",
+    "index.html": "/Coach-Me/index.html",
+    "static/css/main.c7f2379b.chunk.css.map": "/Coach-Me/static/css/main.c7f2379b.chunk.css.map",
+    "static/js/2.e5b7d6bf.chunk.js.LICENSE.txt": "/Coach-Me/static/js/2.e5b7d6bf.chunk.js.LICENSE.txt",
+    "static/media/contact-us.aa69b0bb.jpg": "/Coach-Me/static/media/contact-us.aa69b0bb.jpg",
+    "static/media/diagram.6c5b1f4e.jpg": "/Coach-Me/static/media/diagram.6c5b1f4e.jpg",
+    "static/media/girl.845dd327.jpg": "/Coach-Me/static/media/girl.845dd327.jpg",
+    "static/media/help3.57a61b70.jpg": "/Coach-Me/static/media/help3.57a61b70.jpg",
+    "static/media/lady-hire.122ab9b6.png": "/Coach-Me/static/media/lady-hire.122ab9b6.png",
+    "static/media/lady-student.d1bf0d46.png": "/Coach-Me/static/media/lady-student.d1bf0d46.png",
+    "static/media/logo.2f858053.jpg": "/Coach-Me/static/media/logo.2f858053.jpg",
+    "static/media/logo.f87fd59f.svg": "/Coach-Me/static/media/logo.f87fd59f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.01773800.js",
+    "static/js/2.e5b7d6bf.chunk.js",
+    "static/css/main.c7f2379b.chunk.css",
+    "static/js/main.75b65a74.chunk.js"
+  ]
+}
