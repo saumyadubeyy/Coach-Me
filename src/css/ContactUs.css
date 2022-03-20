@@ -43,7 +43,7 @@ textarea {
 }
 
 input {
-    width: 70%;
+    /* width: 70%; */
     outline: none;
     padding: 0.5vw;
     border-radius: 0.5vw;

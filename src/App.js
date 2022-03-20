@@ -18,11 +18,11 @@ const App = () => {
         <Navbar />
         <Switch>
           <Route exact path="/Coach-Me" component={Home} />
-          <Route  path='/features' component={SpecialFeatures} />
-          <Route  path='/about' component={AboutUs} />
-          <Route  path='/contactus' component={ContactUs} />
-          <Route path='/signIn' component={SignIn} />
-          <Route path='/signUp' component={SignUp} />
+          <Route  path='/Coach-Me/features' component={SpecialFeatures} />
+          <Route  path='/Coach-Me/about' component={AboutUs} />
+          <Route  path='/Coach-Me/contactus' component={ContactUs} />
+          <Route path='/Coach-Me/signIn' component={SignIn} />
+          <Route path='/Coach-Me/signUp' component={SignUp} />
           <Route path='*' component={Error} />
         </Switch>
       </Router>

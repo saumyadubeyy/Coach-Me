@@ -67,7 +67,6 @@ const ContactUs = () => {
         } 
     }
 
-
     return (
         <div className='contact-us'>
             {
@@ -88,6 +87,7 @@ const ContactUs = () => {
                                 name='First Name'
                                 error={checkError(name)}
                                 id="outlined-error"
+                                fullWidth
                             />
                             <TextField 
                                 className='input'
@@ -97,6 +97,7 @@ const ContactUs = () => {
                                 value={email}
                                 onChange={(e) => setEmail(e.target.value)}
                                 error={checkError(email) || validateEmail(email)}
+                                fullWidth
                             />
                             <TextField 
                                 className='input'
@@ -107,6 +108,7 @@ const ContactUs = () => {
                                 value={mobile}
                                 onChange={(e) => setMobile(e.target.value)}
                                 error={checkError(mobile) || validateMobile(mobile)}
+                                fullWidth
                             />
                             <TextField 
                                 className='input'
@@ -118,6 +120,7 @@ const ContactUs = () => {
                                 minRows={3}
                                 onChange={(e) => setMessage(e.target.value)}
                                 error={checkError(message)}
+                                fullWidth
                             />
                         </div>
                     </ThemeProvider>

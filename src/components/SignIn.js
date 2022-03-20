@@ -29,7 +29,7 @@ const SignIn = () => {
         </div>
         <button className='button'>Sign In</button>
         <div className='signUp-text'>
-          Don't have an account yet? <Link className='text' to='/signUp'>Sign Up</Link>
+          Don't have an account yet? <Link className='text' to='/Coach-Me/signUp'>Sign Up</Link>
         </div>
     </div>
   )
