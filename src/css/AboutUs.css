@@ -1,0 +1,43 @@
+.about-us {
+    text-align: center;
+}
+
+.heading {
+    padding-top: 5vw;
+    font-size: 3vw;
+    font-weight: 700;
+}
+
+.team {
+    display: flex;
+    padding-top: 4vw;
+    justify-content: center;
+    gap: 2vw;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+.team-member {
+    padding: 2vw;
+    border-radius: 1vw;
+    width: 25%;
+}
+
+.team-member img {
+    border-radius: 1vw;
+}
+
+.team-member .name {
+    text-transform: uppercase;
+    padding: 1vw;
+    padding-bottom: 0;
+    font-size: 1.5vw;
+    font-weight: 700;
+}
+
+.team-member .r-no {
+    font-size: 1.2vw;
+    padding-top: 0.3vw;
+    font-weight: 500;
+}

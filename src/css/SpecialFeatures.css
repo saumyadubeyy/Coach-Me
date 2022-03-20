@@ -1,0 +1,41 @@
+.special-features {
+    text-align: center;
+}
+
+
+.special-features .heading {
+    font-size: 2.2vw;
+    font-weight: 700;
+    padding-bottom: 2vw;
+}
+
+.features-holder {
+    width: 80%;
+    display: flex;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 1.8vw;
+    padding-bottom: 2vw;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.holder-text {
+    width: 60vw;
+    padding: 1vw;
+}
+
+.holder-image {
+    width: 40vw;
+}
+
+.special-features h2 {
+    padding-bottom: 2vw;
+    font-size: 2vw;
+}
+
+.text {
+    font-size: 1.2vw;
+    font-weight: 500;
+}

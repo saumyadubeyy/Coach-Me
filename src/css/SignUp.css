@@ -1,0 +1,45 @@
+.signUp {
+    text-align: center;
+    padding-top: 4vw;
+    width: 30vw;
+    margin: auto;
+}
+
+.signUp .input {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.signUp .button {
+    width: 30vw;
+    padding: 1vw 2vw;
+    font-weight: 500;
+    font-size: 1.3vw;
+    background-color: #698f3f;
+    outline: none;
+    border: none;
+    color: #FCFCFF;
+    cursor: pointer;
+}
+
+.signUp .button:hover{
+    background-color: #1E56A7;
+}
+
+.signIn-text {
+    color: #1E56A7 ;
+    font-weight: 500;
+    padding: 1vw;
+}
+
+.signIn-text .text {
+    color: #698f3f ;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 1.1vw;
+}
+
+.MuiOutlinedInput-input{
+    cursor: pointer;
+}

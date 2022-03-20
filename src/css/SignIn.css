@@ -1,0 +1,45 @@
+.signIn {
+    padding-top: 7vw;
+    margin: auto;
+    text-align: center;
+}
+
+.input {
+    padding-top: 3vw;
+    padding-bottom: 2vw;
+    display: flex;
+    width: 30vw;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.signIn .button {
+    width: 30vw;
+    padding: 1vw 2vw;
+    font-weight: 500;
+    font-size: 1.3vw;
+    background-color: #698f3f;
+    outline: none;
+    border: none;
+    color: #FCFCFF;
+    cursor: pointer;
+}
+
+.signIn .button:hover{
+    background-color: #1E56A7;
+}
+
+.signUp-text {
+    color: #1E56A7 ;
+    font-weight: 500;
+    padding: 1vw;
+}
+
+.signUp-text .text {
+    color: #698f3f ;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 1.1vw;
+}

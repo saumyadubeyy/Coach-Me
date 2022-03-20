@@ -1,0 +1,160 @@
+.homepage {
+    padding-top: 2vw;
+    text-align: center;
+}
+
+.homepage h1 {
+    font-size: 4vw;
+    padding-bottom: 2vw;
+    padding-left: 0;
+    padding-right: 0;
+    color: #1E56A7;
+}
+
+.homepage h2 {
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+    font-size: 2.5vw;
+}
+
+.homepage h3 {
+    padding-top: 2vw;
+    font-size: 2vw;
+}
+
+.image{
+    width: 50vw;
+    margin: 2vw auto;
+}
+
+.main-text {
+    width: 60%;
+    margin: auto;
+    font-size: 1.6vw;
+    font-weight: 700;
+    margin-top: 1vw;
+    padding-bottom: 2vw;
+}
+
+.diagram {
+    margin-top: 1vw;
+    border-radius: 1vw;
+}
+
+.card-holder{
+    margin-top: 9vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+    margin-bottom: 1vw;
+}
+
+.card {
+    background-color: red;
+    position: relative;
+    width: 32vw;
+    height: 13vw;
+    text-align: start;
+    padding-top: 1vw;
+    padding-left: 1.5vw;
+    padding-bottom: 1vw;
+    border-radius: 1vw;
+    color: #FCFCFF;
+    box-shadow: 0px -2px 6px #0000005F;
+}
+
+.card button {
+    padding: 0.8vw 2.7vw;
+    border-radius: 0.5vw;
+    border: none;
+    margin-top: 1.2vw;
+    font-size: 1vw;
+    cursor: pointer;
+    text-transform: uppercase;
+    position: relative;
+    bottom: 0;
+    color: #0A122A;
+    font-weight: 500;
+}
+
+.card button:hover {
+    box-shadow: 0px -2px 6px #0000005F;
+    bottom: 0.1vw;
+}
+
+.card-1 {
+    background-color: #698F3F;
+}
+
+
+.card-2 {
+    background-color: #804E49;
+}
+
+.card-heading {
+    font-size: 2.3vw;
+    font-weight: 700;
+    margin-bottom: 1.5vw;
+}
+
+.card-text {
+    width: 50%;
+    font-size: 1.3vw;
+}
+
+.lady-1{
+    width: 15vw;
+    position: absolute;
+    top: -7.8vw;
+    right: 0;
+}
+
+.lady-2{
+    width: 23vw;
+    position: absolute;
+    top: -8.6vw;
+    right: -3vw;
+}
+
+.feature-holder {
+    /* width: 60%; */
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 1.5vw;
+    margin-bottom: 2vw;
+}
+
+.feature {
+    padding: 1.5vw 3vw;
+    border-radius: 0.7vw;
+    box-shadow: 0px -2px 6px #0000005F;
+    color: #0A122A;
+    width: 12%;
+    position: relative;
+    bottom: 0;
+}
+
+.feature-heading {
+    font-size: 1.4vw;
+    font-weight: 500;
+}
+
+.feature-text {
+    margin-top: 1vw;
+    font-size: 1vw;
+    font-weight: 400;
+}
+
+.feature:hover{
+    bottom: 0.1vw;
+}
+
+.footer {
+    font-size: 1.2vw;
+    margin-bottom: 2vw;
+    font-weight: 700;
+    color: #804E49;
+}

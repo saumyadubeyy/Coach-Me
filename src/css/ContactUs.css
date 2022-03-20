@@ -1,0 +1,80 @@
+.contact-us-text {
+    font-size: 3.5vw;
+    padding-top: 2vw;
+    text-align: center;
+    font-weight: 700;
+    color: #528681;
+}
+
+.contact-us img {
+    width: 30vw;
+}
+
+.holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding-left: 5vw;
+    padding-top: 2vw;
+}
+
+.holder .form {
+    padding-left: 3vw;
+    padding-right: 3vw;
+    width: 30vw !important;
+    border-radius: 1vw;
+}
+
+.input-holder {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8vw;
+    padding: 0.6vw ;
+    font-weight: 500;
+}
+
+textarea {
+    resize: none;
+    outline: none;
+    padding: 0.5vw;
+    border-radius: 0.5vw;
+}
+
+input {
+    width: 70%;
+    outline: none;
+    padding: 0.5vw;
+    border-radius: 0.5vw;
+    border-width: thin;
+}
+
+.button {
+    padding-bottom: 1vw;
+}
+
+.contact-us button {
+    width: 100%;    
+    height: 3vw;
+    font-size: 1.2vw;
+    font-weight: 500;
+    background-color: #FF9C85;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 0.2vw;
+    cursor: pointer;
+}
+
+/* .contact-us button:focus {
+    background-color: #013C64;
+} */
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+}

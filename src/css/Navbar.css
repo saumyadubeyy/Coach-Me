@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap');
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+
+
+.nav-link {
+    font-size: 4vw;
+    font-family: 'Shadows Into Light Two', cursive;
+    font-weight: 900;
+    color: #1E56A7;
+    text-decoration: none;
+    text-shadow: 0px 1px 10px rgba(27,65,220,0.6);
+}
+
+.item {
+    margin: auto 1.5vw;
+}
+
+.link {
+    font-size: 1.2vw;
+    color: #0a122a;
+    font-weight: 500;
+    position: relative;
+    top: 0;
+    text-decoration: none;
+}
+
+.link:hover{
+    color: #1E56A7;
+    top: -2px;
+}
+
+.item button {
+    padding: 0.3vw 1.8vw;
+    font-size: 1.2vw;
+    color: #FCFCFF;
+    font-weight: 500;
+    border-radius: 0.3vw;
+    background-color: #698f3f;
+    border: none;
+    cursor: pointer;
+}
+
+.item button:hover{
+    background-color: #1E56A7;
+}
