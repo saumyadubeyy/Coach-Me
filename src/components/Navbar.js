@@ -13,7 +13,7 @@ const Navbar = () => {
                 <span className="item"><Link className="link" to='/Coach-Me/features'>Special Features</Link></span>
                 <span className="item"><Link className="link" to='/Coach-Me/about'>About Us</Link></span>
                 <span className="item"><Link className="link" to='/Coach-Me/contactus'>Contact Us</Link></span>
-                <span className="item"><Link to='/Coach-Me/signin'><button className="btn">Sign In</button></Link></span>
+                <span className="item"><Link to='/Coach-Me/signHome'><button className="btn">Sign In</button></Link></span>
             </div>
         </div>
     )

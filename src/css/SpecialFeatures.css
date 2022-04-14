@@ -39,3 +39,35 @@
     font-size: 1.2vw;
     font-weight: 500;
 }
+
+.featuress-holder {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    gap: 1vw;
+    justify-content: center;
+    padding-bottom: 2vw;
+}
+
+.features {
+    padding: 1.6vw 1vw;
+    flex: 1;
+    border-radius: 1vw;
+    bottom: 0;
+    position: relative;
+}
+
+.features:hover{
+    bottom: 0.1vw;
+}
+
+.features-heading {
+    font-weight: 600;
+    padding-bottom: 1vw;
+}
+
+.features-text {
+    font-weight: 400;
+    width: 90%;
+    margin: auto;
+}

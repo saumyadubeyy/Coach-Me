@@ -3,7 +3,6 @@ import "../css/ContactUs.css"
 import man from "../assets/contact-us.jpg"
 import { TextField, ThemeProvider } from "@mui/material";
 import MUITheme from '../theme/mui-theme';
-import {Link} from 'react-router-dom'
 
 const ContactUs = () => {
     const [name, setName] = useState("")

@@ -19,30 +19,30 @@ const SpecialFeatures = () => {
                     </div>
                 </div>
                 <div className='holder-image'>
-                    <img className='img' src={help} alt=" " />
+                    <img className='imge' src={help} alt=" " />
                 </div>
             </div>         
                 <h2>Why choose <span className='logo-text'>CoachMe?</span></h2>
-            <div className='feature-holder'>
-                <div className='feature' style={{backgroundColor : "#E7E973"}}>
-                    <div className='feature-heading'>Vast List of Mentors to choose from</div>
-                    <div className='feature-text'>Duis elit ligula, efficitur eu magna ac, accumsan pretium sem. Pellentesque, at feugiat orci. Mauris placerat</div>
+            <div className='featuress-holder'>
+                <div className='features' style={{backgroundColor : "#E7E973"}}>
+                    <div className='features-heading'>Vast List of Mentors to choose from</div>
+                    <div className='features-text'>Anything you’d ever want help with, we have someone who has the correct skillset to help you.</div>
                 </div>
-                <div className='feature' style={{backgroundColor : "#0EBEE4"}}>
-                <div className='feature-heading'>Vast List of Mentors to choose from</div>
-                    <div className='feature-text'>Duis elit ligula, efficitur eu magna ac, accumsan pretium sem. Pellentesque, at feugiat orci. Mauris placerat</div>
+                <div className='features' style={{backgroundColor : "#0EBEE4"}}>
+                <div className='features-heading'>Rating for all mentors available</div>
+                    <div className='feature-text'>5-star rating system for all the mentors will be displayed in their contact cards.</div>
                 </div>
-                <div className='feature' style={{backgroundColor : "#3AB764"}}>
-                <div className='feature-heading'>Vast List of Mentors to choose from</div>
-                    <div className='feature-text'>Duis elit ligula, efficitur eu magna ac, accumsan pretium sem. Pellentesque, at feugiat orci. Mauris placerat</div>
+                <div className='features' style={{backgroundColor : "#3AB764"}}>
+                <div className='features-heading'>Hassle-free communication</div>
+                    <div className='features-text'>In-built chat box to maintain contact with the mentors.</div>
                 </div>
-                <div className='feature' style={{backgroundColor : "#0EBEE4"}}>
-                <div className='feature-heading'>Vast List of Mentors to choose from</div>
-                    <div className='feature-text'>Duis elit ligula, efficitur eu magna ac, accumsan pretium sem. Pellentesque, at feugiat orci. Mauris placerat</div>
+                <div className='features' style={{backgroundColor : "#0EBEE4"}}>
+                <div className='features-heading'>Build connections with important people</div>
+                    <div className='features-text'>Hundreds of important people who can help you achieve milestones in your career.</div>
                 </div>
-                <div className='feature' style={{backgroundColor : "#E7E973"}}>
-                <div className='feature-heading'>Vast List of Mentors to choose from</div>
-                    <div className='feature-text'>Duis elit ligula, efficitur eu magna ac, accumsan pretium sem. Pellentesque, at feugiat orci. Mauris placerat</div>
+                <div className='features' style={{backgroundColor : "#E7E973"}}>
+                <div className='features-heading'>Post your doubts on our Doubt Wall</div>
+                    <div className='features-text'>A space where users can post their doubts/questions, and people with answers can help them.</div>
                 </div>
             </div>
             <div className='footer'>For any further details, contact us at <i onClick={sendEmail} style={{textDecoration : "underline", cursor : "pointer"}}>coachme@gmail.com</i></div>

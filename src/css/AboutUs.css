@@ -1,43 +1,70 @@
-.about-us {
-    text-align: center;
+.members {
+    padding-top: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    padding-bottom: 2vw;
 }
 
 .heading {
-    padding-top: 5vw;
-    font-size: 3vw;
-    font-weight: 700;
-}
-
-.team {
-    display: flex;
-    padding-top: 4vw;
-    justify-content: center;
-    gap: 2vw;
-    align-items: center;
-    width: 90%;
-    margin: auto;
-}
-
-.team-member {
-    padding: 2vw;
-    border-radius: 1vw;
-    width: 25%;
-}
-
-.team-member img {
-    border-radius: 1vw;
-}
-
-.team-member .name {
-    text-transform: uppercase;
-    padding: 1vw;
-    padding-bottom: 0;
-    font-size: 1.5vw;
-    font-weight: 700;
-}
-
-.team-member .r-no {
-    font-size: 1.2vw;
-    padding-top: 0.3vw;
+    text-align: center;
     font-weight: 500;
+    font-size: 3vw;
+    padding-top: 2vw;
+}
+
+.member {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3vw;
+    background-image: url("../assets/blobBg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img {
+    width: 4vw;
+}
+
+
+.socials img {
+    width: 1.5vw;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6vw;
+    padding-top: 0.5vw;
+}
+
+.member .name {
+    font-weight: 500;
+    font-size: 1.5vw;
+}
+
+.member .position {
+    font-weight: 500;
+    font-size: 1.2vw;
+}
+
+.text {
+    text-align: center;    
+    font-weight: 500;
+    padding: 3vw 12vw;
+}
+
+.text span a{
+    color: #B9D8DB;
+    text-decoration: none;
+}
+
+
+.text .subtext {
+    line-height: 5vw;
 }
