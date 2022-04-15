@@ -53,3 +53,48 @@
 .item button:hover{
     background-color: #1E56A7;
 }
+
+.dropdown {
+    position: absolute;
+    right: 11.5vw;
+    border-radius: 0.5vw;
+    top: 7vw;
+    background-color: #698f3f;
+    padding: 1vw;
+    color: #FCFCFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.7vw;
+}
+
+.mentor, .mentee {
+    font-weight: 600;
+    text-decoration: underline #FCFCFF solid;
+}
+
+.drop {
+    display: flex;
+    gap: 2vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.drop div {
+    padding: 0.4vw;
+}
+
+.sign-links:hover {
+    text-decoration: underline #FCFCFF solid;
+    cursor: pointer;
+}
+
+.sign-links {
+    color: #FCFCFF;
+    text-decoration: none;
+}
+
+.dropdown-close {
+    display: none;
+}

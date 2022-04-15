@@ -8,9 +8,9 @@ const SpecialFeatures = () => {
     }
     return (
         <div className="special-features">
+            <h1 style={{color : "#698f3f"}} className='sp'>Features of CoachMe</h1>
             <div className='features-holder'>
                 <div className='holder-text'>
-                    <h1 style={{color : "#698f3f"}}>Special Features</h1>
                     <div className='heading'>Bridging the gap between <span style={{color : "#E25755"}}>people who want to learn</span> and <span style={{color : "#3AB764"}}>people who want to help</span></div>
                     <div className='text'>
                         Have an idea about what you wanna build but don't know how to start?
@@ -30,7 +30,7 @@ const SpecialFeatures = () => {
                 </div>
                 <div className='features' style={{backgroundColor : "#0EBEE4"}}>
                 <div className='features-heading'>Rating for all mentors available</div>
-                    <div className='feature-text'>5-star rating system for all the mentors will be displayed in their contact cards.</div>
+                    <div className='features-text'>5-star rating system for all the mentors will be displayed in their contact cards.</div>
                 </div>
                 <div className='features' style={{backgroundColor : "#3AB764"}}>
                 <div className='features-heading'>Hassle-free communication</div>
